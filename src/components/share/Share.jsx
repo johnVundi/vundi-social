@@ -1,8 +1,15 @@
-import React from 'react'
+import  './share.css'
 
 function Share() {
   return (
-    <div>Share</div>
+    <div className='share'>
+       <div className="shareWrapper">
+        <div className="shareTop">
+            <img src="" alt="" />
+        </div>
+       <div className="shareBottom"></div>
+       </div>
+    </div>
   )
 }
 
