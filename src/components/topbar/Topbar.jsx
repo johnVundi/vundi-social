@@ -12,7 +12,7 @@ function Topbar() {
         </div>
         <div className="topbarCenter">
           <div className="searchBar">
-          <SearchIcon/>
+          <SearchIcon className="searchIcon"/>
           <input placeholder="search" className="searchInput" />
           </div>
           </div> 
@@ -35,6 +35,7 @@ function Topbar() {
             <span className="topbarIconBadge">1</span>
             </div>
           </div>
+          <img src="/assets/persons/person1.png" alt="" className="topbarImage" />
         </div> 
         
     </div>
