@@ -31,20 +31,35 @@ box-shadow: 4px 4px 11px 0px rgba(0,0,0,0.34);
 .shareHr{
     margin: 20px;
 }
-.shareButton{
+.shareBottom{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .shareOptions{
     display: flex;
+
+}
+.shareOption{
+    display: flex;
     align-items: center;
-   
     margin-right: 15px;
     cursor: pointer;
 }
 .shareIcon{
     font-size: 18px;
-    margin-right: 20px;
+    margin-right: 10px;
     padding: 10px;
+}
+.shareOptionText{
+    font-size: 14px;
+    font-weight: 500;
+}
+.shareButton{
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: green;
+    font-weight: 500;
+    color: white;
 }

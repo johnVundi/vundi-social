@@ -1,3 +1,4 @@
+import Post from '../post/Post'
 import Share from '../share/Share'
 import './feeds.css'
 
@@ -6,6 +7,7 @@ function Feeds() {
         <div className='feed'>
             <div className="feedsWrapper">
                 <Share />
+                <Post />
             </div>
         </div>
     )
