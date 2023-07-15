@@ -18,8 +18,20 @@ function Post() {
                 </div>
             </div>
 
-            <div className='postCenter'> </div>
-            <div className='postBottom'> </div>
+            <div className='postCenter'>
+                <span className="spanText">Hey! Rada Gani</span>
+                <img className='postImg' src="/assets/persons/person1.png" alt="" />
+            </div>
+            <div className='postBottom'>
+                <div className="postBottomLeft">
+                    <img className='likeIcon' src='/assets/persons/like.png' alt='' />
+                    <img className='likeIcon' src='/assets/persons/heart.png' alt='' />
+                    <span className="postLikeCounter">32 people liked</span>
+                </div>
+                <div className="postBottomRight">
+                    <span className="postCommentText">9 comments</span>
+                </div>
+            </div>
         </div>
     )
 }
